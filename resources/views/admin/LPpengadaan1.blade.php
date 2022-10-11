@@ -1,11 +1,11 @@
 @extends('layouts/index')
-@section('content')
+{{-- @section('content')
     @section('judul')
         {{'Laporan Data / Belum Tersertifikasi'}}
     @endsection
     @section('title')
         {{'Laporan Data yang Belum Tersertifikasi'}}
-    @endsection
+    @endsection --}}
 
 <!-- Content Row -->
     <div class="card shadow mb-3 ">
@@ -66,7 +66,7 @@
 {{-- <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
     Launch demo modal
-  </button>
+</button>
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

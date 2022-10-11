@@ -69,7 +69,8 @@ Route::get('/pengguna',[view::class, 'pengguna'])->name('pengguna');
 
 //tambahkan kode berikut
 // Route::resource('/asets', PemilikController::class);
-Route::resource('/asets', AsetController::class);
+Route::resource('/LPpengadaan1', AsetController::class);
+
 Route::resource('/delete', view::class);
 
 Route::resource('/pemilik', PemilikController::class);

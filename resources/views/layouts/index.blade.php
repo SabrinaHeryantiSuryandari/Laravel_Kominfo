@@ -5,7 +5,10 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Skydash Admin</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  <title>Keuangan Kominfo</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="{{ asset('template1/vendors/feather/feather.css') }}">
   <link rel="stylesheet" href="{{ asset('template1/vendors/ti-icons/css/themify-icons.css') }}">
@@ -51,7 +54,7 @@
 
             <ul class="navbar-nav navbar-nav-right">
               {{-- Notifications --}}
-              <li class="nav-item dropdown">
+              {{-- <li class="nav-item dropdown">
                 <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
                   <i class="icon-bell mx-0"></i>
                   <span class="count"></span>
@@ -98,7 +101,8 @@
                     </div>
                   </a>
                 </div>
-              </li>
+              </li> --}}
+
               {{--foto profile --}}
               <li class="nav-item nav-profile dropdown">
                 {{-- <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown"> --}}
@@ -115,9 +119,9 @@
                       {{-- <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> --}}
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                        {{-- <span class="mr-2 d-none d-lg-inline text-white small">{{ Auth::user()->name }}</span> --}}
-                        {{-- <img class="img-profile rounded-circle" src="{{ asset('template/img/undraw_profile.svg')}}"> --}}
-                        <img src="{{ asset('template1/images/faces/face28.jpg') }}" alt="profile"/>
+                            {{-- <img class="img-profile rounded-circle" src="{{ asset('template/img/undraw_profile.svg')}}"> --}}
+                            <img src="{{ asset('template1/images/faces/face28.jpg') }}" alt="profile"/>
+                            <span class="mr-2 d-none d-lg-inline small">{{ Auth::user()->name }}</span>
                       </a>
                     {{-- </li> --}}
                 
@@ -145,11 +149,11 @@
                   @endguest
               </li>
 
-              <li class="nav-item nav-settings d-none d-lg-flex">
+              {{-- <li class="nav-item nav-settings d-none d-lg-flex">
                 <a class="nav-link" href="#">
                   <i class="icon-ellipsis"></i>
                 </a>
-              </li>
+              </li> --}}
             </ul>
             <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
               <span class="icon-menu"></span>
@@ -349,7 +353,7 @@
                   </a>
                   <div class="collapse" id="ui-basic">
                     <ul class="nav flex-column sub-menu">
-                      <li class="nav-item"> <a class="nav-link" href="#">1juta - 10juta</a></li>
+                      <li class="nav-item"> <a class="nav-link" href="LPpengadaan1">1juta - 10juta</a></li>
                       <li class="nav-item"> <a class="nav-link" href="#">> 10juta - 50juta</a></li>
                       <li class="nav-item"> <a class="nav-link" href="#">> 50juta</a></li>
                     </ul>
